@@ -7,7 +7,6 @@ setup() {
 }
 
 teardown() {
-	
 	if [ -d "$FLASH_PLAYER" ]
 	then
 		rm -r ${FLASH_PLAYER}
