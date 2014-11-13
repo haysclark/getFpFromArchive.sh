@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Get FlashPlayer Form Archive 1.0, 2014
+# Get FlashPlayer Form Archive 1.1, 2014
 #
 # Script downloads a Flash Archive zip, unzips the archive, located the needed
 # Mac OS Debug Flash Player, unzips that file and cleans up all but the Flash
@@ -35,7 +35,7 @@
 FP_ARCHIVE_PATH="fp_archive"
 FP_ARCHIVE_ZIP="fp_archive.zip"
 EXPECTED_ARG="<FlashPlayer Archile Url>"
-VERSION="1.0"
+VERSION="1.1"
 NAME=`basename "$0"`
 
 if [ "$#" -gt 1 ]; then
